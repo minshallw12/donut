@@ -6,9 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "watch": "vite build --watch"
   },
   "dependencies": {
+    "colorsys": "^1.0.22",
+    "mathjs": "^11.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
