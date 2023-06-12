@@ -1,11 +1,10 @@
 .donut-frame {
     width: 650px;
-    height: 330px;
-    background-color: blue;
-    border-radius: 10px;
+    height: 650px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2px dotted white
 }
 
 .donut-frame pre{
@@ -49,7 +48,7 @@
 
 
 #ascii {
-    display: 'none';
+    display: none;
     color: LightCyan;
     font-style: mono;
 }
