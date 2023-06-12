@@ -83,8 +83,8 @@ while run:
         y_start = 0
 
     for i in range(len(b)):
-        A += 0.00004  # for faster rotation change to bigger value
-        B += 0.00002  # for faster rotation change to bigger value
+        A += 0.00002  # for faster rotation change to bigger value
+        B += 0.00001  # for faster rotation change to bigger value
         if i == 0 or i % columns:
             text_display(b[i], x_start, y_start)
             x_start += x_separator

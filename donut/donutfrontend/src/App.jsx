@@ -1,5 +1,5 @@
 import './App.css'
-import Donut from './components/Donut'
+import FreshDonut from './components/FreshDonut'
 
 function App() {
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <h1>test</h1>
-      <Donut/>  
+      <FreshDonut/>  
     </div>
   )
 }
