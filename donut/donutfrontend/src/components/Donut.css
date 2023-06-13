@@ -1,10 +1,9 @@
 .donut-frame {
-    width: 650px;
-    height: 650px;
+    width: 500px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px dotted white
 }
 
 .donut-frame pre{
